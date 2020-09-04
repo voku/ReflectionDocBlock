@@ -125,7 +125,7 @@ final class StandardTagFactory implements TagFactory
      *
      * @see self::registerTagHandler() to add a new tag handler to the existing default list.
      *
-     * @param array<class-string<Tag>> $tagHandlers
+     * @param array<class-string<Tag>>|null $tagHandlers
      */
     public function __construct(FqsenResolver $fqsenResolver, ?array $tagHandlers = null)
     {

@@ -97,7 +97,7 @@ class ExampleFinder
      * 3. Checks the 'examples' folder in the current working directory for examples
      * 4. Checks the path relative to the current working directory for the given filename
      *
-     * @return string[] all lines of the example file
+     * @return string[]|null All lines of the example file.
      */
     private function getExampleFileContents(string $filename) : ?array
     {

@@ -40,9 +40,9 @@ final class DocBlock
     private $isTemplateEnd;
 
     /**
-     * @param DocBlock\Tag[] $tags
-     * @param Types\Context  $context  The context in which the DocBlock occurs.
-     * @param Location       $location The location within the file that this DocBlock occurs in.
+     * @param DocBlock\Tag[]     $tags
+     * @param Types\Context|null $context  The context in which the DocBlock occurs.
+     * @param Location|null      $location The location within the file that this DocBlock occurs in.
      */
     public function __construct(
         string $summary = '',
